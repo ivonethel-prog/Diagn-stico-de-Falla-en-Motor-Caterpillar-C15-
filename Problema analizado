@@ -1,0 +1,107 @@
+# Diagnóstico de Falla en Motor Caterpillar C15  
+**Análisis de Datos aplicado al Mantenimiento Industrial**
+
+## Descripción del proyecto
+Este proyecto simula un caso real de **diagnóstico de fallas en un motor diésel Caterpillar C15**, ampliamente utilizado en minería y transporte pesado.  
+El objetivo es identificar una **falla incipiente** mediante el análisis de datos operativos y la aplicación de criterios técnicos de mantenimiento y confiabilidad.
+
+El análisis integra **conocimiento técnico industrial** con **análisis de datos**, permitiendo detectar patrones anómalos antes de que ocurra una falla crítica.
+
+---
+
+## Contexto del equipo
+- **Equipo:** Motor Caterpillar C15  
+- **Aplicación:** Maquinaria pesada / camión minero  
+- **Condiciones de operación:** Servicio severo, carga elevada y ciclos prolongados  
+- **Período analizado:** 3 meses de operación continua  
+
+---
+
+## Problema analizado
+Durante la operación del motor se detectaron los siguientes síntomas:
+- Aumento progresivo de la temperatura del motor  
+- Disminución gradual de la presión de aceite  
+- Incremento del consumo de combustible  
+- Pérdida leve de potencia en operación prolongada  
+
+Estos síntomas motivaron el análisis de datos para identificar una posible **falla incipiente**.
+
+---
+
+## Dataset
+El dataset utilizado es **simulado**, pero diseñado con criterios realistas de operación industrial.
+
+### Variables analizadas:
+- `fecha`: fecha de registro  
+- `horas_operacion`: horas acumuladas del motor  
+- `temperatura_motor`: temperatura del motor (°C)  
+- `presion_aceite`: presión de aceite (bar)  
+- `consumo_combustible`: consumo de combustible (L/h)  
+- `rpm`: revoluciones por minuto  
+- `evento_mantenimiento`: registro de mantenimiento  
+
+---
+
+##  Metodología de análisis
+1. Carga y limpieza de datos  
+2. Análisis exploratorio (EDA)  
+3. Análisis de tendencias y correlaciones  
+4. Evaluación de síntomas operativos  
+5. Formulación de hipótesis de falla  
+6. Diagnóstico técnico basado en evidencia  
+7. Propuesta de acciones de mantenimiento  
+
+---
+
+##  Herramientas utilizadas
+- **Python**
+  - pandas
+  - numpy
+  - matplotlib
+- **Jupyter Notebook**
+- Análisis exploratorio de datos
+- Criterio técnico de mantenimiento industrial
+
+---
+
+## 🔍 Resultados principales
+El análisis muestra:
+- Tendencia creciente de la temperatura del motor a lo largo del tiempo  
+- Disminución progresiva de la presión de aceite  
+- Incremento sostenido del consumo de combustible  
+
+Estas variables, analizadas en conjunto, evidencian una degradación progresiva del sistema.
+
+---
+
+##  Diagnóstico de falla
+El comportamiento observado es consistente con una **degradación del sistema de lubricación**, que genera:
+- Aumento de fricción interna  
+- Pérdida de eficiencia térmica  
+- Mayor consumo energético  
+
+La falla se manifiesta de forma gradual, permitiendo su detección temprana mediante análisis de datos operativos.
+
+---
+
+## Recomendaciones de mantenimiento
+- Inspección del sistema de lubricación  
+- Análisis de aceite para detección de partículas  
+- Ajuste del plan de mantenimiento preventivo  
+- Implementación de mantenimiento basado en condición  
+- Monitoreo continuo de temperatura y presión  
+
+---
+
+##  Conclusión
+Este proyecto demuestra cómo el **análisis de datos aplicado al mantenimiento** permite identificar fallas incipientes en equipos industriales, mejorar la confiabilidad y optimizar la toma de decisiones técnicas.
+
+El enfoque integra análisis de datos, conocimiento de maquinaria pesada y criterios de mantenimiento predictivo.
+
+---
+
+## Autora
+**Ivone Ethel Britos**  
+Analista de Fallas Junior | Mantenimiento Predictivo | Maquinaria Pesada  
+📧 ivonethel@gmail.com  
+🔗 LinkedIn: www.linkedin.com/in/ivone-britos-8486152a0
